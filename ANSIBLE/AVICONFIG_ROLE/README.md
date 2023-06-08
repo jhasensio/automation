@@ -7,7 +7,15 @@ Deploys two VirtualServices (apps) in a NSX-T Cloud\
         - NSX-T Tier 1 Logical Router named T1-DATA
 
 
-        
+´´´
+# List of applications to be included as part of the site.
+#
+
+- import_playbook: applications/app1/app.yml
+
+- import_playbook: applications/app2/app.yml
+´´´  
+
 Use following to deploy (be careful with whitespaces in the path)
         
 ```
