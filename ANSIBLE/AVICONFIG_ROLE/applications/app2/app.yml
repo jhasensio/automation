@@ -12,7 +12,7 @@
     - name: Setting up Application
       debug: msg="{{ app_name }}"
 
-    - name: Avi Application | Setup App1
+    - name: Avi Application | Setup App2
       import_role:
         name: aviconfig
       vars:
