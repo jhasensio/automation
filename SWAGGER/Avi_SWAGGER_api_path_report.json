@@ -1,0 +1,1300 @@
+{
+    "version": "SWAGGER",
+    "report": [
+        {
+            "name": "Avi ALBServicesConfig Object API",
+            "path": [
+                "/albservicesconfig",
+                "/albservicesconfig/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ALBServicesFileUpload Object API",
+            "path": [
+                "/albservicesfileupload",
+                "/albservicesfileupload/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ALBServicesJob Object API",
+            "path": [
+                "/albservicesjob",
+                "/albservicesjob/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ActionGroupConfig Object API",
+            "path": [
+                "/actiongroupconfig",
+                "/actiongroupconfig/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Alert Object API",
+            "path": [
+                "/alert",
+                "/alert/{uuid}",
+                "/albservicesfileupload",
+                "/albservicesfileupload/{uuid}",
+                "/virtualservice",
+                "/virtualservice/{uuid}",
+                "/upgradestatusinfo",
+                "/upgradestatusinfo/{uuid}",
+                "/debugvirtualservice",
+                "/debugvirtualservice/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi AlertConfig Object API",
+            "path": [
+                "/alertconfig",
+                "/alertconfig/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi AlertEmailConfig Object API",
+            "path": [
+                "/alertemailconfig",
+                "/alertemailconfig/{uuid}",
+                "/alertemailconfig/{uuid}/testemail"
+            ]
+        },
+        {
+            "name": "Avi AlertObjectList Object API",
+            "path": [
+                "/alertobjectlist",
+                "/alertobjectlist/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi AlertScriptConfig Object API",
+            "path": [
+                "/alertscriptconfig",
+                "/alertscriptconfig/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi AlertSyslogConfig Object API",
+            "path": [
+                "/alertsyslogconfig",
+                "/alertsyslogconfig/{uuid}",
+                "/alertsyslogconfig/{uuid}/testsyslog"
+            ]
+        },
+        {
+            "name": "Avi AnalyticsProfile Object API",
+            "path": [
+                "/analyticsprofile",
+                "/analyticsprofile/{uuid}",
+                "/analyticsprofile/{uuid}/runtime/internal/"
+            ]
+        },
+        {
+            "name": "Avi Application Object API",
+            "path": [
+                "/application",
+                "/application/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ApplicationPersistenceProfile Object API",
+            "path": [
+                "/applicationpersistenceprofile",
+                "/applicationpersistenceprofile/{uuid}",
+                "/applicationpersistenceprofile/{uuid}/federated_info/"
+            ]
+        },
+        {
+            "name": "Avi ApplicationProfile Object API",
+            "path": [
+                "/applicationprofile",
+                "/applicationprofile/{uuid}",
+                "/applicationprofile/{uuid}/runtime/internal/"
+            ]
+        },
+        {
+            "name": "Avi AuthMappingProfile Object API",
+            "path": [
+                "/authmappingprofile",
+                "/authmappingprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi AuthProfile Object API",
+            "path": [
+                "/authprofile",
+                "/authprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi AutoScaleLaunchConfig Object API",
+            "path": [
+                "/autoscalelaunchconfig",
+                "/autoscalelaunchconfig/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi AvailabilityZone Object API",
+            "path": [
+                "/availabilityzone",
+                "/availabilityzone/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Backup Object API",
+            "path": [
+                "/backup",
+                "/backup/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi BackupConfiguration Object API",
+            "path": [
+                "/backupconfiguration",
+                "/backupconfiguration/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi BotConfigConsolidator Object API",
+            "path": [
+                "/botconfigconsolidator",
+                "/botconfigconsolidator/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi BotDetectionPolicy Object API",
+            "path": [
+                "/botdetectionpolicy",
+                "/botdetectionpolicy/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi BotIPReputationTypeMapping Object API",
+            "path": [
+                "/botipreputationtypemapping",
+                "/botipreputationtypemapping/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi BotMapping Object API",
+            "path": [
+                "/botmapping",
+                "/botmapping/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi CertificateManagementProfile Object API",
+            "path": [
+                "/certificatemanagementprofile",
+                "/certificatemanagementprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Cloud Object API",
+            "path": [
+                "/cloud",
+                "/cloud/{uuid}",
+                "/cloud/list",
+                "/cloud/{uuid}/internals/",
+                "/cloud/{uuid}/status/",
+                "/cloud/{uuid}/gc/",
+                "/cloud/{uuid}/health/",
+                "/cloud/{uuid}/hosts/",
+                "/cloud/{uuid}/autoscalegroup/",
+                "/cloud/{uuid}/autoscalegroupservers/",
+                "/cloud/{uuid}/placement/summary/",
+                "/cloud/{uuid}/placement/ineligible/"
+            ]
+        },
+        {
+            "name": "Avi CloudConnectorUser Object API",
+            "path": [
+                "/cloudconnectoruser",
+                "/cloudconnectoruser/{uuid}",
+                "/cloudconnectoruser/{uuid}/test"
+            ]
+        },
+        {
+            "name": "Avi CloudInventory Object API",
+            "path": [
+                "/cloudinventory",
+                "/cloudinventory/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi CloudProperties Object API",
+            "path": [
+                "/cloudproperties",
+                "/cloudproperties/{uuid}",
+                "/controllerproperties",
+                "/controllerproperties/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi CloudRuntime Object API",
+            "path": [
+                "/cloudruntime",
+                "/cloudruntime/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ClusterCloudDetails Object API",
+            "path": [
+                "/clusterclouddetails",
+                "/clusterclouddetails/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ControllerPortalRegistration Object API",
+            "path": [
+                "/controllerportalregistration",
+                "/controllerportalregistration/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ControllerProperties Object API",
+            "path": [
+                "/controllerproperties"
+            ]
+        },
+        {
+            "name": "Avi ControllerSite Object API",
+            "path": [
+                "/controllersite",
+                "/controllersite/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi CustomIpamDnsProfile Object API",
+            "path": [
+                "/customipamdnsprofile",
+                "/customipamdnsprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi DebugController Object API",
+            "path": [
+                "/debugcontroller",
+                "/debugcontroller/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi DebugServiceEngine Object API",
+            "path": [
+                "/debugserviceengine",
+                "/debugserviceengine/{uuid}",
+                "/debugserviceengine/{uuid}/faultruntime/"
+            ]
+        },
+        {
+            "name": "Avi DebugVirtualService Object API",
+            "path": [
+                "/debugvirtualservice",
+                "/debugvirtualservice/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi DnsPolicy Object API",
+            "path": [
+                "/dnspolicy",
+                "/dnspolicy/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi DynamicDnsRecord Object API",
+            "path": [
+                "/dynamicdnsrecord",
+                "/dynamicdnsrecord/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ErrorPageBody Object API",
+            "path": [
+                "/errorpagebody",
+                "/errorpagebody/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ErrorPageProfile Object API",
+            "path": [
+                "/errorpageprofile",
+                "/errorpageprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi FederationCheckpoint Object API",
+            "path": [
+                "/federationcheckpoint",
+                "/federationcheckpoint/{uuid}",
+                "/federationcheckpoint/{uuid}/pendingobjects/"
+            ]
+        },
+        {
+            "name": "Avi FederationCheckpointInventory Object API",
+            "path": [
+                "/federationcheckpointinventory",
+                "/federationcheckpointinventory/{uuid}",
+                "/federationcheckpoint",
+                "/federationcheckpoint/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi FileObject Object API",
+            "path": [
+                "/fileobject",
+                "/fileobject/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi GeoDB Object API",
+            "path": [
+                "/geodb",
+                "/geodb/{uuid}",
+                "/geodb/{uuid}/runtime/internal/"
+            ]
+        },
+        {
+            "name": "Avi Gslb Object API",
+            "path": [
+                "/gslb",
+                "/gslb/{uuid}",
+                "/gslb/{uuid}/runtime/",
+                "/gslb/{uuid}/runtime/detail/",
+                "/gslb/{uuid}/runtime/internal/"
+            ]
+        },
+        {
+            "name": "Avi GslbGeoDbProfile Object API",
+            "path": [
+                "/gslbgeodbprofile",
+                "/gslbgeodbprofile/{uuid}",
+                "/gslbgeodbprofile/{uuid}/runtime/"
+            ]
+        },
+        {
+            "name": "Avi GslbInventory Object API",
+            "path": [
+                "/gslbinventory",
+                "/gslbinventory/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi GslbService Object API",
+            "path": [
+                "/gslbservice",
+                "/gslbservice/{uuid}",
+                "/gslbservice/{uuid}/runtime/"
+            ]
+        },
+        {
+            "name": "Avi GslbServiceInventory Object API",
+            "path": [
+                "/gslbserviceinventory",
+                "/gslbserviceinventory/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi HTTPPolicySet Object API",
+            "path": [
+                "/httppolicyset",
+                "/httppolicyset/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi HardwareSecurityModuleGroup Object API",
+            "path": [
+                "/hardwaresecuritymodulegroup",
+                "/hardwaresecuritymodulegroup/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi HealthMonitor Object API",
+            "path": [
+                "/healthmonitor",
+                "/healthmonitor/{uuid}",
+                "/healthmonitor/{uuid}/federated_info/"
+            ]
+        },
+        {
+            "name": "Avi IPReputationDB Object API",
+            "path": [
+                "/ipreputationdb",
+                "/ipreputationdb/{uuid}",
+                "/ipreputationdb/{uuid}/runtime/internal/"
+            ]
+        },
+        {
+            "name": "Avi IcapProfile Object API",
+            "path": [
+                "/icapprofile",
+                "/icapprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Image Object API",
+            "path": [
+                "/image",
+                "/image/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi InventoryFaultConfig Object API",
+            "path": [
+                "/inventoryfaultconfig",
+                "/inventoryfaultconfig/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi IpAddrGroup Object API",
+            "path": [
+                "/ipaddrgroup",
+                "/ipaddrgroup/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi IpamDnsProviderProfile Object API",
+            "path": [
+                "/ipamdnsproviderprofile",
+                "/ipamdnsproviderprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi JWTServerProfile Object API",
+            "path": [
+                "/jwtserverprofile",
+                "/jwtserverprofile/{uuid}",
+                "/jwtserverprofile/{uuid}/federated_info/"
+            ]
+        },
+        {
+            "name": "Avi JobEntry Object API",
+            "path": [
+                "/jobs",
+                "/jobs/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi L4PolicySet Object API",
+            "path": [
+                "/l4policyset",
+                "/l4policyset/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi LabelGroup Object API",
+            "path": [
+                "/labelgroup",
+                "/labelgroup/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi LicenseLedgerDetails Object API",
+            "path": [
+                "/licensing/ledger/details",
+                "/licensing/ledger/details/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi LicenseStatus Object API",
+            "path": [
+                "/licensing/status",
+                "/licensing/status/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi LogControllerMapping Object API",
+            "path": [
+                "/logcontroller",
+                "/logcontroller/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi MemoryBalancerRequest Object API",
+            "path": [
+                "/memorybalancernotifier",
+                "/memorybalancernotifier/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi MicroService Object API",
+            "path": [
+                "/microservice",
+                "/microservice/{uuid}",
+                "/microservice/{uuid}/runtime/internal/",
+                "/microservice/{uuid}/runtime/detail/"
+            ]
+        },
+        {
+            "name": "Avi MicroServiceGroup Object API",
+            "path": [
+                "/microservicegroup",
+                "/microservicegroup/{uuid}",
+                "/microservicegroup/{uuid}/runtime/detail/"
+            ]
+        },
+        {
+            "name": "Avi NatPolicy Object API",
+            "path": [
+                "/natpolicy",
+                "/natpolicy/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Network Object API",
+            "path": [
+                "/network",
+                "/network/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi NetworkInventory Object API",
+            "path": [
+                "/networkinventory",
+                "/networkinventory/{uuid}",
+                "/vimgrnwruntime",
+                "/vimgrnwruntime/{uuid}",
+                "/networkruntime",
+                "/networkruntime/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi NetworkProfile Object API",
+            "path": [
+                "/networkprofile",
+                "/networkprofile/{uuid}",
+                "/networkprofile/{uuid}/runtime/internal/"
+            ]
+        },
+        {
+            "name": "Avi NetworkRuntime Object API",
+            "path": [
+                "/networkruntime",
+                "/networkruntime/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi NetworkSecurityPolicy Object API",
+            "path": [
+                "/networksecuritypolicy",
+                "/networksecuritypolicy/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi NetworkService Object API",
+            "path": [
+                "/networkservice",
+                "/networkservice/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi NsxtSegmentRuntime Object API",
+            "path": [
+                "/nsxtsegmentruntime",
+                "/nsxtsegmentruntime/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi PKIProfile Object API",
+            "path": [
+                "/pkiprofile",
+                "/pkiprofile/{uuid}",
+                "/pkiprofile/{uuid}/federated_info/"
+            ]
+        },
+        {
+            "name": "Avi PingAccessAgent Object API",
+            "path": [
+                "/pingaccessagent",
+                "/pingaccessagent/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Pool Object API",
+            "path": [
+                "/pool",
+                "/pool/{uuid}",
+                "/pool/{uuid}/scaleout",
+                "/pool/{uuid}/scalein",
+                "/pool/clear",
+                "/pool/{uuid}/runtime/",
+                "/pool/{uuid}/runtime/server/",
+                "/pool/{uuid}/runtime/detail/",
+                "/pool/{uuid}/runtime/server/detail/",
+                "/pool/{uuid}/runtime/internal/",
+                "/pool/{uuid}/objsync/",
+                "/pool/{uuid}/runtime/server/internal/",
+                "/pool/{uuid}/runtime/stats/clear",
+                "/pool/{uuid}/runtime/request_queue/clear",
+                "/pool/{uuid}/runtime/debug/",
+                "/pool/{uuid}/hmon/",
+                "/pool/{uuid}/runtime/server/hmonstat/",
+                "/pool/{uuid}/algo/",
+                "/pool/{uuid}/persistence/",
+                "/pool/{uuid}/connpool/",
+                "/pool/{uuid}/connpoolstats/clear",
+                "/pool/{uuid}/httpcache/",
+                "/pool/{uuid}/httpcachestats/",
+                "/pool/{uuid}/httpcachestats/detail/",
+                "/pool/{uuid}/vs/",
+                "/pool/{uuid}/runtime/vs/service/server/map/kv/",
+                "/pool/{uuid}/runtime/vs/service/server/map/table/"
+            ]
+        },
+        {
+            "name": "Avi PoolGroup Object API",
+            "path": [
+                "/poolgroup",
+                "/poolgroup/{uuid}",
+                "/poolgroup/clear",
+                "/poolgroup/{uuid}/runtime/detail/",
+                "/poolgroup/{uuid}/enable_primary_pool/clear"
+            ]
+        },
+        {
+            "name": "Avi PoolGroupDeploymentPolicy Object API",
+            "path": [
+                "/poolgroupdeploymentpolicy",
+                "/poolgroupdeploymentpolicy/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi PoolGroupInventory Object API",
+            "path": [
+                "/poolgroupinventory",
+                "/poolgroupinventory/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi PoolInventory Object API",
+            "path": [
+                "/poolinventory",
+                "/poolinventory/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi PriorityLabels Object API",
+            "path": [
+                "/prioritylabels",
+                "/prioritylabels/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ProtocolParser Object API",
+            "path": [
+                "/protocolparser",
+                "/protocolparser/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Role Object API",
+            "path": [
+                "/role",
+                "/role/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SCPoolServerStateInfo Object API",
+            "path": [
+                "/scpoolserverstateinfo",
+                "/scpoolserverstateinfo/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SCVsStateInfo Object API",
+            "path": [
+                "/scvsstateinfo",
+                "/scvsstateinfo/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SSLKeyAndCertificate Object API",
+            "path": [
+                "/sslkeyandcertificate",
+                "/sslkeyandcertificate/{uuid}",
+                "/sslkeyandcertificate/{uuid}/renew",
+                "/sslkeyandcertificate/{uuid}/federated_info/"
+            ]
+        },
+        {
+            "name": "Avi SSLProfile Object API",
+            "path": [
+                "/sslprofile",
+                "/sslprofile/{uuid}",
+                "/sslprofile/{uuid}/federated_info/"
+            ]
+        },
+        {
+            "name": "Avi SSOPolicy Object API",
+            "path": [
+                "/ssopolicy",
+                "/ssopolicy/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Scheduler Object API",
+            "path": [
+                "/scheduler",
+                "/scheduler/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SeProperties Object API",
+            "path": [
+                "/seproperties"
+            ]
+        },
+        {
+            "name": "Avi SecureChannelAvailableLocalIPs Object API",
+            "path": [
+                "/securechannelavailablelocalips",
+                "/securechannelavailablelocalips/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SecureChannelMapping Object API",
+            "path": [
+                "/securechannelmapping",
+                "/securechannelmapping/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SecureChannelToken Object API",
+            "path": [
+                "/securechanneltoken",
+                "/securechanneltoken/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SecurityManagerData Object API",
+            "path": [
+                "/securitymanagerdata",
+                "/securitymanagerdata/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SecurityPolicy Object API",
+            "path": [
+                "/securitypolicy",
+                "/securitypolicy/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ServerAutoScalePolicy Object API",
+            "path": [
+                "/serverautoscalepolicy",
+                "/serverautoscalepolicy/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ServiceEngine Object API",
+            "path": [
+                "/serviceengine",
+                "/serviceengine/{uuid}",
+                "/serviceengine/{uuid}/reboot",
+                "/serviceengine/{uuid}/forcedelete",
+                "/serviceengine/{uuid}/switchover",
+                "/serviceengine/clear",
+                "/serviceengine/{uuid}/runtime/",
+                "/serviceengine/{uuid}/runtime/detail/",
+                "/serviceengine/{uuid}/internal/",
+                "/serviceengine/{uuid}/ipstat/",
+                "/serviceengine/{uuid}/arpstat/",
+                "/serviceengine/{uuid}/icmpstat/",
+                "/serviceengine/{uuid}/mbufstats/",
+                "/serviceengine/{uuid}/mallocstats/",
+                "/serviceengine/{uuid}/shmallocstats/",
+                "/serviceengine/{uuid}/seassertstats/dp/",
+                "/serviceengine/{uuid}/seassertstats/ag/",
+                "/serviceengine/{uuid}/sevshbstats/",
+                "/serviceengine/{uuid}/sevssplacement/",
+                "/serviceengine/{uuid}/cpu/",
+                "/serviceengine/{uuid}/cpu/detail/",
+                "/serviceengine/{uuid}/meminfo/",
+                "/serviceengine/{uuid}/interface/",
+                "/serviceengine/{uuid}/bgp/",
+                "/serviceengine/{uuid}/bgp/debug/",
+                "/serviceengine/{uuid}/bgp/advertised_routes/",
+                "/serviceengine/{uuid}/bgp/peer_status/",
+                "/serviceengine/{uuid}/bgp/peer_info/",
+                "/serviceengine/{uuid}/bgp/running_config/",
+                "/serviceengine/{uuid}/bgp/peer_state/",
+                "/serviceengine/{uuid}/bfd/session_status/",
+                "/serviceengine/{uuid}/interfacesummary/",
+                "/serviceengine/{uuid}/interface/lacp/",
+                "/serviceengine/{uuid}/lldp/",
+                "/serviceengine/{uuid}/route/",
+                "/serviceengine/{uuid}/ip6route/",
+                "/serviceengine/{uuid}/arptable/",
+                "/serviceengine/{uuid}/httpstats/",
+                "/serviceengine/{uuid}/seruminsertionstats/",
+                "/serviceengine/{uuid}/selogstats/",
+                "/serviceengine/{uuid}/seauthstats/",
+                "/serviceengine/{uuid}/vnicdb/",
+                "/serviceengine/{uuid}/vnicdbhistory/",
+                "/serviceengine/{uuid}/graphdb/",
+                "/serviceengine/{uuid}/seagent/",
+                "/serviceengine/{uuid}/resourcemap/",
+                "/serviceengine/{uuid}/consistenthash/",
+                "/serviceengine/{uuid}/appmap/",
+                "/serviceengine/{uuid}/shardclientevents/",
+                "/serviceengine/{uuid}/rteringstat/",
+                "/serviceengine/{uuid}/sehmprobedisable/",
+                "/serviceengine/{uuid}/flowtablestat/",
+                "/serviceengine/{uuid}/flowtable/",
+                "/serviceengine/{uuid}/vshash/",
+                "/serviceengine/{uuid}/flowtable_remote/",
+                "/serviceengine/{uuid}/tcp-flows/",
+                "/serviceengine/{uuid}/sctp-flows/",
+                "/serviceengine/{uuid}/tcp-flows/detail/",
+                "/serviceengine/{uuid}/sctp-flows/detail/",
+                "/serviceengine/{uuid}/metrics/",
+                "/serviceengine/{uuid}/metrics/detail/",
+                "/serviceengine/{uuid}/metrics/debug/",
+                "/serviceengine/{uuid}/metrics/debug/summary/",
+                "/serviceengine/{uuid}/dosstat/",
+                "/serviceengine/{uuid}/memdist/",
+                "/serviceengine/{uuid}/faultinject/exhaust_mbuf/clear",
+                "/serviceengine/{uuid}/faultinject/exhaust_mcl/clear",
+                "/serviceengine/{uuid}/faultinject/exhaust_mcl_small/clear",
+                "/serviceengine/{uuid}/faultinject/exhaust_conn/clear",
+                "/serviceengine/{uuid}/faultinject/exhaust_shm_conn/clear",
+                "/serviceengine/{uuid}/faultinject/exhaust_cfg/clear",
+                "/serviceengine/{uuid}/faultinject/exhaust_shm_cfg/clear",
+                "/serviceengine/{uuid}/faultinject/sefault/clear",
+                "/serviceengine/{uuid}/placement/",
+                "/serviceengine/{uuid}/reservedvs/",
+                "/serviceengine/{uuid}/microservice/",
+                "/serviceengine/{uuid}/ndtable/",
+                "/serviceengine/{uuid}/ip6stat/",
+                "/serviceengine/{uuid}/icmp6stat/",
+                "/serviceengine/{uuid}/l4policysetstats/",
+                "/serviceengine/{uuid}/natstat/",
+                "/serviceengine/{uuid}/nat-flows/",
+                "/serviceengine/{uuid}/network-service/",
+                "/serviceengine/{uuid}/natpolicystats/",
+                "/serviceengine/{uuid}/ratelimiting/rl/internal/",
+                "/serviceengine/{uuid}/ratelimiting/msf/internal/",
+                "/serviceengine/{uuid}/routestat/",
+                "/serviceengine/{uuid}/route-flows/",
+                "/serviceengine/{uuid}/objsync/",
+                "/serviceengine/{uuid}/resolverdb/",
+                "/serviceengine/{uuid}/resolverdbsummary/",
+                "/serviceengine/{uuid}/botuacacheruntime/",
+                "/serviceengine/{uuid}/botuacachestatsruntime/",
+                "/serviceengine/{uuid}/placement/summary/",
+                "/serviceengine/{uuid}/placement/detail/",
+                "/serviceengine/{uuid}/adaptiveevents/"
+            ]
+        },
+        {
+            "name": "Avi ServiceEngineGroup Object API",
+            "path": [
+                "/serviceenginegroup",
+                "/serviceenginegroup/{uuid}",
+                "/serviceenginegroup/{uuid}/redistribute",
+                "/serviceenginegroup/clear",
+                "/serviceenginegroup/{uuid}/runtime/",
+                "/serviceenginegroup/{uuid}/placement/summary/",
+                "/serviceenginegroup/{uuid}/placement/detail/",
+                "/serviceenginegroup/{uuid}/placement/ineligible/"
+            ]
+        },
+        {
+            "name": "Avi ServiceEngineGroupInventory Object API",
+            "path": [
+                "/serviceenginegroupinventory",
+                "/serviceenginegroupinventory/{uuid}",
+                "/serviceenginegroup",
+                "/serviceenginegroup/{uuid}",
+                "/upgradestatussummary",
+                "/upgradestatussummary/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi ServiceEngineInventory Object API",
+            "path": [
+                "/serviceengineinventory",
+                "/serviceengineinventory/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SiteVersion Object API",
+            "path": [
+                "/siteversion",
+                "/siteversion/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SnmpTrapProfile Object API",
+            "path": [
+                "/snmptrapprofile",
+                "/snmptrapprofile/{uuid}",
+                "/snmptrapprofile/{uuid}/testsnmptrap"
+            ]
+        },
+        {
+            "name": "Avi StatediffOperation Object API",
+            "path": [
+                "/statediffoperation",
+                "/statediffoperation/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi StatediffSnapshot Object API",
+            "path": [
+                "/statediffoperation",
+                "/statediffoperation/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi StringGroup Object API",
+            "path": [
+                "/stringgroup",
+                "/stringgroup/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi SystemConfiguration Object API",
+            "path": [
+                "/systemconfiguration",
+                "/systemconfiguration/systestemail"
+            ]
+        },
+        {
+            "name": "Avi SystemLimits Object API",
+            "path": [
+                "/systemlimits",
+                "/systemlimits/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Tenant Object API",
+            "path": [
+                "/tenant",
+                "/tenant/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi TestSeDatastoreLevel1 Object API",
+            "path": [
+                "/testsedatastorelevel1",
+                "/testsedatastorelevel1/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi TestSeDatastoreLevel2 Object API",
+            "path": [
+                "/testsedatastorelevel2",
+                "/testsedatastorelevel2/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi TestSeDatastoreLevel3 Object API",
+            "path": [
+                "/testsedatastorelevel3",
+                "/testsedatastorelevel3/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi TrafficCloneProfile Object API",
+            "path": [
+                "/trafficcloneprofile",
+                "/trafficcloneprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi UpgradeStatusInfo Object API",
+            "path": [
+                "/upgradestatusinfo",
+                "/upgradestatusinfo/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi UpgradeStatusSummary Object API",
+            "path": [
+                "/upgradestatusinfo",
+                "/upgradestatusinfo/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi User Object API",
+            "path": [
+                "/user",
+                "/user/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi UserAccountProfile Object API",
+            "path": [
+                "/useraccountprofile",
+                "/useraccountprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi UserActivity Object API",
+            "path": [
+                "/useractivity",
+                "/useractivity/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VCenterServer Object API",
+            "path": [
+                "/vcenterserver",
+                "/vcenterserver/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VIDCInfo Object API",
+            "path": [
+                "/vimgrvcenterdatacenters",
+                "/vimgrvcenterdatacenters/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VIMgrClusterRuntime Object API",
+            "path": [
+                "/vimgrclusterruntime",
+                "/vimgrclusterruntime/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VIMgrHostRuntime Object API",
+            "path": [
+                "/vimgrhostruntime",
+                "/vimgrhostruntime/{uuid}",
+                "/vimgrhostruntime/{uuid}/accessible",
+                "/vimgrhostruntime/getquarantinedhosts"
+            ]
+        },
+        {
+            "name": "Avi VIMgrNWRuntime Object API",
+            "path": [
+                "/vimgrnwruntime",
+                "/vimgrnwruntime/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VIMgrSEVMRuntime Object API",
+            "path": [
+                "/vimgrsevmruntime",
+                "/vimgrsevmruntime/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VIMgrVMRuntime Object API",
+            "path": [
+                "/vimgrvmruntime",
+                "/vimgrvmruntime/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VIPGNameInfo Object API",
+            "path": [
+                "/vimgrvcenternetworks",
+                "/vimgrvcenternetworks/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VSDataScriptSet Object API",
+            "path": [
+                "/vsdatascriptset",
+                "/vsdatascriptset/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VirtualService Object API",
+            "path": [
+                "/virtualservice",
+                "/virtualservice/{uuid}",
+                "/virtualservice/{uuid}/scaleout",
+                "/virtualservice/{uuid}/scalein",
+                "/virtualservice/{uuid}/migrate",
+                "/virtualservice/{uuid}/switchover",
+                "/virtualservice/clear",
+                "/virtualservice/{uuid}/resync",
+                "/virtualservice/{uuid}/rotatekeys",
+                "/virtualservice/{uuid}/retryplacement",
+                "/virtualservice/{uuid}/log-recommendation",
+                "/virtualservice/{uuid}/apply-log-recommendation",
+                "/virtualservice/{uuid}/runtime/",
+                "/virtualservice/{uuid}/runtime/detail/",
+                "/virtualservice/{uuid}/runtime/internal/",
+                "/virtualservice/{uuid}/udpstat/",
+                "/virtualservice/{uuid}/tcpstat/",
+                "/virtualservice/{uuid}/sctpstat/",
+                "/virtualservice/{uuid}/traffic_clone_stats/",
+                "/virtualservice/{uuid}/dosstat/",
+                "/virtualservice/{uuid}/connections/",
+                "/virtualservice/{uuid}/httpconnections/",
+                "/virtualservice/{uuid}/httpconnections/detail/",
+                "/virtualservice/{uuid}/httpstats/",
+                "/virtualservice/{uuid}/authstats/",
+                "/virtualservice/{uuid}/httppolicyset/",
+                "/virtualservice/{uuid}/httppolicysetstats/",
+                "/virtualservice/{uuid}/dnspolicystats/",
+                "/virtualservice/{uuid}/networksecuritypolicystats/",
+                "/virtualservice/{uuid}/networksecuritypolicy/detail/",
+                "/virtualservice/{uuid}/candidatesehostlist/",
+                "/virtualservice/{uuid}/placement/",
+                "/virtualservice/{uuid}/keyval/",
+                "/virtualservice/{uuid}/keyvalsummary/",
+                "/virtualservice/{uuid}/keyvalsummaryobjsync/",
+                "/virtualservice/{uuid}/keyvaldispatch/",
+                "/virtualservice/{uuid}/sslsessioncache/",
+                "/virtualservice/{uuid}/cltrack/",
+                "/virtualservice/{uuid}/cltracksummary/",
+                "/virtualservice/{uuid}/client/",
+                "/virtualservice/{uuid}/clientsummary/",
+                "/virtualservice/{uuid}/dnstable/",
+                "/virtualservice/{uuid}/gslbservicedetail/",
+                "/virtualservice/{uuid}/gslbserviceinternal/",
+                "/virtualservice/{uuid}/gslbservicealgostat/",
+                "/virtualservice/{uuid}/gslbservicehmonstat/",
+                "/virtualservice/{uuid}/geolocationinfo/",
+                "/virtualservice/{uuid}/geodbinternal/",
+                "/virtualservice/{uuid}/gslbsiteinternal/",
+                "/virtualservice/{uuid}/userdefineddatascriptcounters/",
+                "/virtualservice/{uuid}/l4policysetstats/",
+                "/virtualservice/{uuid}/sescaleoutstatus/",
+                "/virtualservice/{uuid}/scaleoutstatus/",
+                "/virtualservice/{uuid}/scaleoutstatus/detail/",
+                "/virtualservice/{uuid}/ssopolicystats/",
+                "/virtualservice/{uuid}/icapstats/",
+                "/virtualservice/{uuid}/outofbandstats/",
+                "/virtualservice/{uuid}/botstats/",
+                "/virtualservice/{uuid}/placement/summary/",
+                "/virtualservice/{uuid}/placement/detail/",
+                "/virtualservice/{uuid}/placement/status/"
+            ]
+        },
+        {
+            "name": "Avi VrfContext Object API",
+            "path": [
+                "/vrfcontext",
+                "/vrfcontext/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VsGs Object API",
+            "path": [
+                "/vsgs",
+                "/vsgs/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VsInventory Object API",
+            "path": [
+                "/vsinventory",
+                "/vsinventory/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VsVip Object API",
+            "path": [
+                "/vsvip",
+                "/vsvip/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi VsvipInventory Object API",
+            "path": [
+                "/vsvipinventory",
+                "/vsvipinventory/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi WafApplicationSignatureProvider Object API",
+            "path": [
+                "/wafapplicationsignatureprovider",
+                "/wafapplicationsignatureprovider/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi WafCRS Object API",
+            "path": [
+                "/wafcrs",
+                "/wafcrs/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi WafPolicy Object API",
+            "path": [
+                "/wafpolicy",
+                "/wafpolicy/{uuid}",
+                "/wafpolicy/{uuid}/update-crs-rules"
+            ]
+        },
+        {
+            "name": "Avi WafPolicyPSMGroup Object API",
+            "path": [
+                "/wafpolicypsmgroup",
+                "/wafpolicypsmgroup/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi WafPolicyPSMGroupInventory Object API",
+            "path": [
+                "/wafpolicypsmgroupinventory",
+                "/wafpolicypsmgroupinventory/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi WafProfile Object API",
+            "path": [
+                "/wafprofile",
+                "/wafprofile/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi WebappUT Object API",
+            "path": [
+                "/webapput",
+                "/webapput/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi Webhook Object API",
+            "path": [
+                "/webhook",
+                "/webhook/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi  Object API",
+            "path": [
+                "/analytics/anomaly/pool/",
+                "/analytics/anomaly/pool/{uuid}",
+                "/analytics/anomaly/serviceengine/",
+                "/analytics/anomaly/serviceengine/{uuid}",
+                "/analytics/anomaly/virtualservice/",
+                "/analytics/anomaly/virtualservice/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi  Object API",
+            "path": [
+                "/analytics/healthscore/pool/",
+                "/analytics/healthscore/pool/{uuid}",
+                "/analytics/healthscore/serviceengine/",
+                "/analytics/healthscore/serviceengine/{uuid}",
+                "/analytics/healthscore/virtualservice/",
+                "/analytics/healthscore/virtualservice/{uuid}"
+            ]
+        },
+        {
+            "name": "Avi  Object API",
+            "path": [
+                "/analytics/metrics/collection/",
+                "/analytics/metrics/controller/",
+                "/analytics/metrics/controller/{uuid}",
+                "/analytics/metrics/pool/",
+                "/analytics/metrics/pool/{uuid}",
+                "/analytics/metrics/serviceengine/",
+                "/analytics/metrics/serviceengine/{uuid}",
+                "/analytics/metrics/virtualservice/",
+                "/analytics/metrics/virtualservice/{uuid}"
+            ]
+        }
+    ]
+}

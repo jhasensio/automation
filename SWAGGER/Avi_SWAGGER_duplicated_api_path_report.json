@@ -1,0 +1,165 @@
+{
+    "version": "SWAGGER",
+    "report": [
+        {
+            "name": "Avi CloudProperties Object API",
+            "path": "/controllerproperties"
+        },
+        {
+            "name": "Avi ControllerProperties Object API",
+            "path": "/controllerproperties"
+        },
+        {
+            "name": "Avi ServiceEngineGroup Object API",
+            "path": "/serviceenginegroup"
+        },
+        {
+            "name": "Avi ServiceEngineGroupInventory Object API",
+            "path": "/serviceenginegroup"
+        },
+        {
+            "name": "Avi NetworkInventory Object API",
+            "path": "/vimgrnwruntime/{uuid}"
+        },
+        {
+            "name": "Avi VIMgrNWRuntime Object API",
+            "path": "/vimgrnwruntime/{uuid}"
+        },
+        {
+            "name": "Avi Alert Object API",
+            "path": "/upgradestatusinfo/{uuid}"
+        },
+        {
+            "name": "Avi UpgradeStatusInfo Object API",
+            "path": "/upgradestatusinfo/{uuid}"
+        },
+        {
+            "name": "Avi UpgradeStatusSummary Object API",
+            "path": "/upgradestatusinfo/{uuid}"
+        },
+        {
+            "name": "Avi ALBServicesFileUpload Object API",
+            "path": "/albservicesfileupload/{uuid}"
+        },
+        {
+            "name": "Avi Alert Object API",
+            "path": "/albservicesfileupload/{uuid}"
+        },
+        {
+            "name": "Avi StatediffOperation Object API",
+            "path": "/statediffoperation"
+        },
+        {
+            "name": "Avi StatediffSnapshot Object API",
+            "path": "/statediffoperation"
+        },
+        {
+            "name": "Avi Alert Object API",
+            "path": "/virtualservice"
+        },
+        {
+            "name": "Avi VirtualService Object API",
+            "path": "/virtualservice"
+        },
+        {
+            "name": "Avi NetworkInventory Object API",
+            "path": "/networkruntime/{uuid}"
+        },
+        {
+            "name": "Avi NetworkRuntime Object API",
+            "path": "/networkruntime/{uuid}"
+        },
+        {
+            "name": "Avi FederationCheckpoint Object API",
+            "path": "/federationcheckpoint/{uuid}"
+        },
+        {
+            "name": "Avi FederationCheckpointInventory Object API",
+            "path": "/federationcheckpoint/{uuid}"
+        },
+        {
+            "name": "Avi FederationCheckpoint Object API",
+            "path": "/federationcheckpoint"
+        },
+        {
+            "name": "Avi FederationCheckpointInventory Object API",
+            "path": "/federationcheckpoint"
+        },
+        {
+            "name": "Avi Alert Object API",
+            "path": "/debugvirtualservice/{uuid}"
+        },
+        {
+            "name": "Avi DebugVirtualService Object API",
+            "path": "/debugvirtualservice/{uuid}"
+        },
+        {
+            "name": "Avi NetworkInventory Object API",
+            "path": "/vimgrnwruntime"
+        },
+        {
+            "name": "Avi VIMgrNWRuntime Object API",
+            "path": "/vimgrnwruntime"
+        },
+        {
+            "name": "Avi Alert Object API",
+            "path": "/upgradestatusinfo"
+        },
+        {
+            "name": "Avi UpgradeStatusInfo Object API",
+            "path": "/upgradestatusinfo"
+        },
+        {
+            "name": "Avi UpgradeStatusSummary Object API",
+            "path": "/upgradestatusinfo"
+        },
+        {
+            "name": "Avi StatediffOperation Object API",
+            "path": "/statediffoperation/{uuid}"
+        },
+        {
+            "name": "Avi StatediffSnapshot Object API",
+            "path": "/statediffoperation/{uuid}"
+        },
+        {
+            "name": "Avi Alert Object API",
+            "path": "/virtualservice/{uuid}"
+        },
+        {
+            "name": "Avi VirtualService Object API",
+            "path": "/virtualservice/{uuid}"
+        },
+        {
+            "name": "Avi NetworkInventory Object API",
+            "path": "/networkruntime"
+        },
+        {
+            "name": "Avi NetworkRuntime Object API",
+            "path": "/networkruntime"
+        },
+        {
+            "name": "Avi Alert Object API",
+            "path": "/debugvirtualservice"
+        },
+        {
+            "name": "Avi DebugVirtualService Object API",
+            "path": "/debugvirtualservice"
+        },
+        {
+            "name": "Avi ServiceEngineGroup Object API",
+            "path": "/serviceenginegroup/{uuid}"
+        },
+        {
+            "name": "Avi ServiceEngineGroupInventory Object API",
+            "path": "/serviceenginegroup/{uuid}"
+        },
+        {
+            "name": "Avi ALBServicesFileUpload Object API",
+            "path": "/albservicesfileupload"
+        },
+        {
+            "name": "Avi Alert Object API",
+            "path": "/albservicesfileupload"
+        }
+    ]
+}
