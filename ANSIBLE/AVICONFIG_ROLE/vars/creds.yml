@@ -12,15 +12,11 @@ cloud: nsx-overlay-data
 tier1_lr: T1-DATA
 se_group: SEG-TEST
 
-# all apps use the same backend servers
+# Virtual Service VIPs apps use the same backend servers
 app1_vip: 10.121.100.200
 app2_vip: 10.121.100.201
-#app3_vip: 10.90.64.202
-#app4_vip: 10.90.64.203
-#complex_app_vip: 10.90.64.204
-#app_test_tenant_vip: 10.90.64.205
 
-
+# In this example all apps will use the same backend servers
 pool_server1: 10.121.100.150
 pool_server2: 10.121.100.151
 pool_server3: 10.121.100.152
