@@ -13,7 +13,6 @@
     datastore_ids: 
        - vsanDatastore
        - nfsDatastore
-    # app_port: 6443
   
   tasks:
     - name: Setting up Service Engine Group
