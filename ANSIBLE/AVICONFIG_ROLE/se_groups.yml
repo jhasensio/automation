@@ -1,0 +1,6 @@
+# List of service Engine Groups to be included as part of the site.
+#
+
+- import_playbook: segroups/segroup1/segroup.yml
+
+- import_playbook: segroups/segroup2/segroup.yml
