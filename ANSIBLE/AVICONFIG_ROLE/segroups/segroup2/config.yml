@@ -1,0 +1,13 @@
+avi_config:
+  serviceenginegroup:
+    - name: "{{ segroup_name }}" 
+      cloud_ref: "{{ '/api/cloud?name=' + cloud }}"
+      vcenters: 
+        - vcenter_ref: "{{ '/api/vcenterserver/?name=' + vcenter_name }}"
+          vcenter_folder: "{{ vcenter_folder }}"
+          nsxt_clusters:
+            cluster_ids: "{{ cluster_ids }}"
+            include: true
+          nsxt_datastores:
+             ds_ids: "{{ datastore_ids }}"
+             include: true
